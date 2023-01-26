@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import './index.css';
 
 const name = "priya"
 const lname = "singh"
@@ -25,17 +26,17 @@ ReactDOM.render(
       <li>five</li>
 
     </ol>
-    <h1> {name} is the best</h1>
-    <h1>{`my name is ${name} ${lname}`}</h1>
+    <h1 className='self'> {name} is the best</h1>
+    <h1 className='self'>{`my name is ${name} ${lname}`}</h1>
     <p>Current Date is = {currDate}</p>
     <p>Current Date is = {currDate1}</p>
     <p>Current Time is = {currTime}</p>
 
     <h1 contentEditable="true">i am web developer</h1>
 
-    <img src={img1} alt="flag" />
-    <img src={img2} alt="flag" />
-    <img src={img3} alt="flag" />
+    <img className='selff' src={img1} alt="flag" />
+    <img className='selff' src={img2} alt="flag" />
+    <img className='selff' src={img3} alt="flag" />
 
     <a href={links} target="_google" >go to google</a>
 
