@@ -28,15 +28,15 @@ ReactDOM.render(
     </ol>
     <h1 className='self'> {name} is the best</h1>
     <h1 className='self'>{`my name is ${name} ${lname}`}</h1>
-    <p>Current Date is = {currDate}</p>
+    <p style = {{ color : "red" , textTransform : "uppercase"}}>Current Date is = {currDate}</p>
     <p>Current Date is = {currDate1}</p>
     <p>Current Time is = {currTime}</p>
 
     <h1 contentEditable="true">i am web developer</h1>
 
-    <img className='selff' src={img1} alt="flag" />
-    <img className='selff' src={img2} alt="flag" />
-    <img className='selff' src={img3} alt="flag" />
+    <img className='selff' src = {img1} alt="flag" />
+    <img className='selff' src = {img2} alt="flag" />
+    <img className='selff' src = {img3} alt="flag" />
 
     <a href={links} target="_google" >go to google</a>
 
